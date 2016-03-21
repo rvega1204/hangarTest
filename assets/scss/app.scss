@@ -1,0 +1,103 @@
+@font-face {
+	font-family: sameButDifferent;
+	src: url(../fonts/SameSameButDifferent.ttf);
+}
+@font-face {
+	font-family: Din;
+	src: url(../fonts/DIN Medium.ttf);
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  background-color: #045d7a;
+  my-app {
+  	yellow-nav {
+	  	position: fixed;
+	  	top: 0;
+	  	right: 0;
+	  	width: 100%;
+	  	height: 5px;
+	  	background-color: #fef274;
+	  	.buttons {
+	  		float: right;
+	  		margin-right: 200px;
+	  		text-align: center;
+	  		.playing, .rate {
+	  			cursor: pointer;
+		  		border-bottom-right-radius:15px;
+				border-bottom-left-radius:15px;
+		  		float: left;
+		  		font-family: Arial;
+		  		font-size: 11px;
+		  		background: #feee6e; 
+		  		width: 115px;
+		  		height: 23px;
+		  		line-height: 23px;
+		  	}
+		  	.playing {
+		  		margin-right: 5px;
+		  	}
+	  	}
+	}
+	.search {
+		text-align: center;
+		margin-top: 20px;
+		input {
+			font-family: Arial;
+			width: 425px;
+			height: 30px;
+			padding: 10px;
+			border-radius: 15px;
+		}
+	}
+	.songs {
+		width: 500px;
+		margin: 0 auto;
+		ul {
+			list-style: none;
+			.play {
+				background: url("../imgs/play.png") no-repeat;
+				float:left;
+				margin-right: 10px;
+				width: 29px;
+				height: 29px;
+				display: inline-block;
+			}
+			p {
+				font-family: Din;
+				margin-bottom: 0;
+			}
+			.artist-name {
+				font-family: Arial;
+				margin-top: 0;
+			}
+		}	
+	}
+	search-cloud {
+		.clouding {
+			background: url("../imgs/nubes.jpg") no-repeat center;
+			width: 100%;
+			margin-top: 50px;
+			text-align: center;
+			h1 {
+				font-family: sameButDifferent;
+				font-size: 48px;
+				font-weight: normal;
+				color: white;
+				display: inline-block;
+				span {
+					background: url("../imgs/logo.png") no-repeat;
+					display: inline-block;
+					margin-right: 10px;
+					width: 81px;
+					height: 70px;
+					vertical-align: middle;
+				}
+			}
+		}
+	}
+  }
+  
+}
