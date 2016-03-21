@@ -18,3 +18,7 @@ npm install
 ```
 npm start
 ```
+4: Run a fake json server
+```
+json-server --watch songs.json --port 3004
+```
