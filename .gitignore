@@ -1,0 +1,12 @@
+node_modules/
+*/[Ll]ogs/*
+# sublimetext
+/*.sublime-project
+*.sublime-workspace
+ 
+# -- Sistemas Operativos ------------------------------
+# Linux
+.*
+!.gitignore
+!.htaccess
+*~
